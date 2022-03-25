@@ -1,0 +1,141 @@
+------------------------------------Bella es mejor que fea------------------------------------------------------------
+La belleza es una experiencia bastante subjetiva. Pero, como dijo Immanuel Kant, la experiencia estética misma de
+la belleza es un juicio de la verdad humana. Y aunque a la computadora no le importa la belleza o la estética, a
+las personas sí, y debemos recordar que un programa bien escrito no solo es más agradable de leer, sino también
+más legible.
+
+-----------------------------------Explícito es mejor que implícito---------------------------------------------------
+El código que escriba debe ser explícito y legible. Siempre que desee utilizar una característica implícita del
+lenguaje, pregúntese si realmente la necesita. Tal vez haya una mejor manera de implementar la funcionalidad.
+Si no, piense en dejar un comentario en el código para explicar lo que está pasando para que a otros programadores
+les resulte más fácil entender su códig
+
+
+---------------------------------Lo simple es mejor que lo complejo---------------------------------------------------
+
+La simplicidad es la clave del éxito. Por lo general, se prefiere una solución más simple a una compleja y, en
+general, gana el enfoque minimalista.  Recuerda: utiliza herramientas adecuadas ajustadas a la especificidad de
+tu proyecto.
+
+
+--------------------------------------Complejo es mejor que complicado---------------------------------------------
+
+Cuando las soluciones simples no sean posibles, tenga en cuenta las limitaciones que conlleva la simplicidad y
+utilice soluciones complejas en su lugar. Distinguir entre complejo que consta de muchos elementos y complicado,
+lo que significa que es difícil de entender, es otra cosa a tener en cuenta al escribir código. En otras palabras,
+hay momentos en que se puede preferir una solución compleja a una simple, especialmente en el caso de que esta
+última cause malentendidos, dudas o malas interpretaciones. Deberías evitar esos.
+
+
+-------------------------------------------Plano es mejor que anidado------------------------------------------------
+
+El código anidado hace que sea más difícil de seguir y comprender. Anidar dos o tres niveles de profundidad aún
+puede ser bueno, pero cualquier cosa más allá de eso se vuelve confuso e ilegible. Aunque en realidad puede tener
+cualquier nivel de bucles anidados o declaraciones if en Python, cualquier cosa por encima de tres debería ser
+una señal clara de que tal vez sea un buen momento para comenzar a refactorizar su código.
+
+
+-----------------------------------------Escaso es mejor que denso------------------------------------------------------
+No escriba demasiado código en una línea, no coloque demasiada información en una pequeña cantidad de código,
+no escriba líneas de código que sean demasiado largas, use espacios en blanco de manera responsable:
+todo esto afecta la legibilidad y la comprensión de su programa.
+
+
+-------------------------------------------La legibilidad cuenta----------------------------------------------------
+
+Su código no solo lo leen las computadoras, también (o sobre Toodo) lo leen los humanos.
+De hecho, es la esencia de la filosofía de Python, y toodo el diseño y la cultura de Python en realidad gira en
+torno a la afirmación de que "el código se lee con más frecuencia de lo que se escribe" (Guido Van Rossum).
+
+
+-------------Los casos especiales no son lo suficientemente especiales como para romper las reglas...---------------
+
+La disciplina, la coherencia y el cumplimiento de las normas y convenciones son elementos importantes en el
+desarrollo de códigos profesionales y responsables. No debe haber excepciones que nos permitan romper los principios
+que rigen las mejores prácticas de codificación. Ningún caso especial, como la presión del tiempo o la complejidad
+de un problema dado, debe ser una excusa para escribir código que no siga las pautas.
+
+
+------------------------------...Aunque, la practicidad vence a la pureza Vale...---------------------------------
+
+
+¿qué está pasando aquí? El aforismo anterior nos animaba a nunca romper las reglas, mientras que este dice que
+puede haber algunas excepciones a esto. ¿Por qué? Bueno, debemos recordar que el objetivo final es resolver
+problemas reales y escribir código que realice alguna tarea particular (esperada). Si su código es elegante,
+legible y cumple con todas las convenciones de estilo importantes, pero no funciona como debería, entonces no
+tiene mucho sentido, ¿verdad?
+
+
+--------------------------------------Errors should never pass silently...--------------------------------------------
+
+
+Un programa que falla es más fácil de depurar que un programa que silencia un error. Generar una excepción llama
+su atención sobre el problema y proporciona información importante sobre lo que sucedió y por qué. Los errores
+que pasan silenciosamente pueden infectar el programa y cambiar su funcionamiento para que se vuelva impredecible,
+inesperado e indeseable. Uno de los trabajos más difíciles que debe realizar un programador es pensar en todos los
+contextos posibles (o al menos tantos como sea posible) en los que puede ocurrir una excepción.
+Servir estas excepciones y proporcionar un remedio para los errores esperados (y bien manejados) es un desafío
+importante, pero al mismo tiempo es una responsabilidad crucial de un buen programador profesional.
+
+
+--------------------------Frente a la ambigüedad, rechace la tentación de adivinar.---------------------------------
+
+
+Las conjeturas seguramente funcionarán en muchos casos, pero en muchos otros pueden decepcionarte amargamente.
+Esta guía transmite un doble mensaje: por un lado, le dice que tenga una confianza limitada en el código que
+está escribiendo, mientras que por otro lado, implica que debe tener una confianza limitada en el código que
+está leyendo. Pero ¿qué significa eso?
+
+Lo primero que debe recordar es probar siempre su código antes de lanzarlo a producción e implementarlo para los
+clientes. ¿Suena obvio y razonable? Bueno, sí, pero muchas veces los programadores descuidan u olvidan este simple
+hábito, ya sea porque confían en sus habilidades de codificación hasta el punto de que, por ejemplo, rechazan
+cualquier posibilidad de cometer errores tipográficos, o porque trabajan bajo una gran presión de tiempo y sienten
+que no tengo tiempo para hacer pruebas.
+
+Una cosa importante a tener en cuenta es: probar su código le permite ahorrar tiempo, no desperdiciarlo.
+Si encuentra un error en una etapa temprana, le costará menos tiempo y dinero solucionarlo. Si no prueba su
+código y resulta que hay un error en una etapa avanzada de desarrollo, las correcciones pueden ser una empresa
+bastante costosa y que requiere mucho tiempo.
+
+
+
+-------------------------Debe haber una, y preferiblemente solo una, manera obvia de hacerlo.------------------------
+
+
+"Aunque esa manera puede no ser obvia al principio a menos que seas holandés". Puede haber múltiples formas de
+lograr el mismo objetivo. Por ejemplo, si desea tomar el nombre y apellido del usuario y mostrarlos en la
+pantalla, puede hacerlo de una de las siguientes maneras:
+
+
+------------------------------------------Ahora es mejor que nunca---------------------------------------------------
+
+
+“Aunque nunca suele ser mejor que *ahora mismo* ahora”. No dejes para mañana lo que puedas hacer hoy.
+Es un proverbio muy conocido. ¿Por qué? Bueno, porque nunca hay un buen momento para nada, siempre hay algunos
+"peros" y "si" que te dicen que esperes más y retrases las cosas. Antes de comenzar a hacer estas cosas,
+escribir su código, es posible que haya olvidado las ideas o la información que necesita para hacerlo bien.
+
+Python le permite traducir rápidamente sus ideas en código de trabajo. Cada vez que experimente el efecto eureka
+o tenga su momento de inspiración, escriba sus pensamientos y codifíquelos en Python (o al menos use algún tipo
+de pseudocódigo), incluso si su código está lejos de ser perfecto. Luego puede refinarlo, desarrollarlo o
+rediseñarlo muy fácilmente.
+
+
+---------------------Si la implementación es difícil de explicar, es una mala idea.--------------------------------
+
+
+“Si la implementación es fácil de explicar, puede ser una buena idea”. Todo y cualquier cosa que pueda
+explicarse con palabras puede traducirse en código y, finalmente, convertirse en un programa informático que
+funcione bien.
+
+
+----------------------Los espacios de nombres son una gran idea, ¡hagamos más de esos!------------------------------
+
+
+Python proporciona un mecanismo de espacio de nombres bueno y bien organizado para administrar la disponibilidad
+de los identificadores que desea usar y evitar conflictos con nombres ya existentes en diferentes ámbitos.
+¿Qué es un espacio de nombres? En términos generales, es “un mapeo de nombres a objetos”
+ (https://docs.python.org/3/tutorial/classes.html) implementado en Python en forma de diccionario.
+
+Qué significa eso? En pocas palabras, significa que cada vez que define una variable, Python "recuerda"
+dos cosas: el identificador de la variable y el valor que le pasa.

@@ -1,4 +1,4 @@
-temps = [[0.0 for h in range(24)] for d in range(31)]
+temps = [[d for h in range(24)] for d in range(31)]
 #
 # la matriz se actualiza mágicamente aquí
 #

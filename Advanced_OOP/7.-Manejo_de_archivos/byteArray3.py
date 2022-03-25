@@ -12,7 +12,6 @@ try:
     dst = open(dstname, 'wb')
 except Exception as e:
     print("No se puede crear el archivo de destino: ", strerror(e.errno))
-    src.close()
     exit(e.errno)
 
 buffer = bytearray(65536)

@@ -1,0 +1,25 @@
+---------------------------------------------¿QUE ES UNA PEP?-----------------------------------------------------
+La PEP es una guía que indica las convenciones estilísticas a seguir para escribir código Python.
+Se trata de un conjunto de recomendaciones cuyo objetivo es ayudar a escribir código más legible y abarca desde
+cómo nombrar variables, al número máximo de caracteres que una línea debe tener.
+
+Hay tres tipos diferentes de PEP:
+Standards Track PEP, que describen nuevas funciones e implementaciones del lenguaje;
+PEP informativos, que describen problemas de diseño de Python, además de brindar pautas e información a la comunidad
+de Python;
+Procesar PEP, que describen varios procesos que giran en torno a Python (por ejemplo, proponer cambios, proporcionar
+recomendaciones, especificar ciertos procedimientos).
+
+
+
+PEP 1 – Propósito y Lineamientos del PEP PEP es un acrónimo que significa Python Enhancement Proposals, que,
+de hecho, es una colección de pautas, mejores prácticas, descripciones de (nuevas) funciones e implementaciones,
+así como procesos, mecanismos e información importante sobre Python.
+
+PEP 20 – El Zen de Python
+El Zen de Python es una colección de 19 aforismos que reflejan la filosofía detrás de  Python, sus principios
+rectores y diseño. Tim Peters, uno de los principales contribuyentes desde hace mucho tiempo al lenguaje de
+programación Python y la comunidad de Python, escribió este poema de 19 líneas en la lista de correo de Python en
+1999, y se convirtió en la entrada número 20 en las Propuestas de mejora de Python en 2004.
+
+Es uno de los huevos de Pascua (es decir, funciones o mensajes ocultos y secretos) incluidos en el intérprete de Python.
